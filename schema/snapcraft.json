@@ -550,6 +550,14 @@
                         "passthrough": {
                             "type": "object",
                             "description": "properties to be passed into snap.yaml as-is"
+                        },
+                        "extensions": {
+                            "type": "array",
+                            "minitems": 1,
+                            "uniqueItems": true,
+                            "items": {
+                                "type": "string"
+                            }
                         }
                     }
                 }
